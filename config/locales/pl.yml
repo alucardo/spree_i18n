@@ -638,7 +638,7 @@ pl:
         user:
           signup: Rejestracja użytkownika
     exceptions:
-      count_on_hand_setter: Nie można ręcznie ustawić count_on_hand, ponieważ jest ustawione automatycznie przez wywołanie recalculate_count_on_hand. Zamiast tego użyj `update_column(:count_on_hand, value)`.
+      count_on_hand_setter: "Nie można ręcznie ustawić count_on_hand, ponieważ jest ustawione automatycznie przez wywołanie recalculate_count_on_hand. Zamiast tego użyj `update_column(:count_on_hand, value)`."
     exchange_for:
     excl:
     existing_shipments:
@@ -880,7 +880,7 @@ pl:
         thanks: Dziękujemy za zakupy.
         total:
     order_not_found: Nie mogliśmy odnaleźć Twojego zamówienia. Prosimy spróbować ponownie.
-    order_number:
+    order_number: Numer zamówienia: %{number}
     order_populator:
       out_of_stock: Brak %{item} w magazynie.
       please_enter_reasonable_quantity: Podaj rozsądną ilość.
